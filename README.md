@@ -22,7 +22,7 @@ and software.](ledcorset/README.md) The actual circuit is the same as the ledski
 
 ## ledcatears - 2023 LED catears
 
-For GFB in 2024 I made LED catears using the same design code and circuit
+[For GFB in 2024 I made LED catears using the same design code and circuit](ledcatears/README.md)
 
 ## ledbag
 
