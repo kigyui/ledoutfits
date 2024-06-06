@@ -70,7 +70,7 @@ over some hardwood. This was far more effort than it should have been
 and I’ve since learnt that the “Prym” punch pliers work amazingly well
 for making perfect small holes in latex.
 
-![./makeskirt2.jpg](./makeskirt2-300x169.jpg) ![](./rearslots-300x169.jpg)
+[![](./makeskirt2-300x169.jpg)](./makeskirt2.jpg) ![](./rearslots-300x169.jpg)
 
 Originally each LED tray was going to slide down into a complete latex
 pocket, enclosed on all three sides, but this was a failure. It was
