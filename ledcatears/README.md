@@ -39,7 +39,7 @@ I use a good quality phone-bank style battery based internally on a
 close to your head (I’ve had enough LIPO problems not to want those
 anywhere near my head).
 
-[![](./20230427_102537-300x135.jpg)](./20230427_102537.jpg) [![](./20230510_112258-300x227.jpg)](./20230510_112258.jpg)
+[![](./20230427_102537-300x135.jpg)](./20230427_102537-scaled.jpg) [![](./20230510_112258-300x227.jpg)](./20230510_112258.jpg)
 
 The final setup for GFB is shown above, with a small switched fan for
 mask cooling. The battery power splits to the right ear which has all
