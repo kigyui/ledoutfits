@@ -1,5 +1,7 @@
 # Sound reactive cat ears
 
+[Watch the video](https://github.com/kigyui/ledoutfits/raw/master/ledcatears/VID-20230426-WA0004.mp4)
+
 I love LED sound reactive things. And by that I mean properly sound
 reactive, not randomly flashing like a wedding DJ sound rig, but
 reacting to the bass beat. I previously made a skirt that did this,
