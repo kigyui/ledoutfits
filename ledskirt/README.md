@@ -27,6 +27,8 @@ tray took a couple of hours print time in white PLA:
 
 [Here is the OpenSCAD source code for the tray.](pixel.scad)
 
+![](./trays-262x300.jpg) ![].(./trays2-233x300.jpg)
+
 The 7 LED strips are wired in series, so the “data out” at the end of
 the strip runs back up to the top and into the “data in” of the next
 strip. This complicates the programming a little but saves having lots
