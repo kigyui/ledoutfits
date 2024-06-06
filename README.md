@@ -5,6 +5,15 @@ need to contend with different sound levels, being near super loud speakers, and
 
 These files document over 6 years of experimentation to get something that works really well.
 
+The summary is
+
+- Use the MAX9814 Adafruit mic amplifier and AGC
+  - Swap out the electret mic for a 130dB one
+- Use a simple Arduino with a hardware FFT (a MSGEQ7 chip)
+  - A PCB makes the above easier as there are a few passive components too
+- Some sort of fully addressable RGB strips (NeoPixels or otherwise)
+  - In a way the outfit is still waterproof/washable
+
 ## ledcorset - 2024 LED corset
 
 [For empcamp in 2024 I made a LED corset for a friend that worked really well. The full details of that will be here shortly with circuit diagram, notes,
