@@ -20,6 +20,14 @@ The summary is
 and software.](ledcorset/README.md) The actual circuit is the same as the ledskirt below, but having swapped out the electret mic on the max8914 with one that could handle
 130db.
 
+## ledcatears - 2023 LED catears
+
+For GFB in 2024 I made LED catears using the same design code and circuit
+
+## ledbag
+
+For various events over the last 4 years I've had a light-up bag that contains the same code and circuit
+
 ## ledskirt - 2018 Magical Latex Girl LED skirt
 
 [Included here are the OpenSCAD files for 3d printing the sled and the
