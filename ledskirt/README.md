@@ -27,7 +27,7 @@ tray took a couple of hours print time in white PLA:
 
 [Here is the OpenSCAD source code for the tray.](pixel.scad)
 
-![](./trays-262x300.jpg) ![].(./trays2-233x300.jpg)
+![](./trays-262x300.jpg) ![](./trays2-233x300.jpg)
 
 The 7 LED strips are wired in series, so the “data out” at the end of
 the strip runs back up to the top and into the “data in” of the next
@@ -40,6 +40,8 @@ good compromise between size and ability to handle the current: If all
 would be carrying 3Amps, but the wires are short and the patterns
 rarely have all LEDs on at the same time, and even less likely to all
 be white, and my battery wouldn’t be able to handle that anyway.
+
+![](./onfloor-768x432.jpg)
 
 The control box is powered by an ardunio-like microcontroller. I used
 a DFRobot Beetle because I happened to have one around and they’re
@@ -68,6 +70,8 @@ over some hardwood. This was far more effort than it should have been
 and I’ve since learnt that the “Prym” punch pliers work amazingly well
 for making perfect small holes in latex.
 
+![](./makeskirt2-300x169.jpg) ![](./rearslots-300x169.jpg)
+
 Originally each LED tray was going to slide down into a complete latex
 pocket, enclosed on all three sides, but this was a failure. It was
 almost impossible to get the trays into and out of the pocket. The
@@ -90,6 +94,8 @@ hole to not muffle the microphone too much and that pocket was
 attached to the back of the skirt.
 
 Adding a few bows and we’re done!
+
+![](./sixbows-300x169.jpg)
 
 [Source code and patterns will be updated here](../src/ledskirt)
 
