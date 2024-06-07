@@ -13,6 +13,8 @@ The summary:
 - Use a simple Arduino with a hardware FFT (a [MSGEQ7](https://www.sparkfun.com/products/10468) chip)
   - A PCB makes the above easier as there are a few passive components too
   - Don't buy ones from Aliexpress, they're often non-functional [fakes](https://forum.arduino.cc/t/what-are-the-symptoms-of-fake-msgeq7/896820)
+- A cheap small Arduino-ish processor
+  - I generally use the [Adafruit Trinket M0](https://www.adafruit.com/product/3500) as it's totally sufficient
 - Some sort of fully addressable RGB strips (NeoPixels or otherwise)
   - In a way the outfit is still waterproof/washable
 - Use a small rechargable battery bank from an established brand designed for phones
