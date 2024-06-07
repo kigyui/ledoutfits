@@ -5,14 +5,18 @@ need to contend with different sound levels, being near super loud speakers, and
 
 These files document over 6 years of experimentation to get something that works really well.
 
-The summary is
+The summary:
 
-- Use the MAX9814 Adafruit mic amplifier and AGC
-  - Swap out the electret mic for a 130dB one
-- Use a simple Arduino with a hardware FFT (a MSGEQ7 chip)
+- Use the [MAX9814 Adafruit](https://www.adafruit.com/product/1713) mic amplifier
+  - This has auto gain control that works well
+  - For clubs or loud parties swap out the electret mic for a 130dB one. I used [a CMC-9745-130T](https://www.digikey.co.uk/en/products/detail/cui-devices/CMC-9745-130T/7784321)
+- Use a simple Arduino with a hardware FFT (a [MSGEQ7](https://www.sparkfun.com/products/10468) chip)
   - A PCB makes the above easier as there are a few passive components too
+  - Don't buy ones from Aliexpress, they're often non-functional [fakes](https://forum.arduino.cc/t/what-are-the-symptoms-of-fake-msgeq7/896820)
 - Some sort of fully addressable RGB strips (NeoPixels or otherwise)
   - In a way the outfit is still waterproof/washable
+
+If you find anything here useful I'd really appreciate letting me know as it helps motivate me to publish more of my projects!
 
 ## ledcorset - 2024 LED corset
 
