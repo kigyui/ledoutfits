@@ -15,6 +15,10 @@ The summary:
   - Don't buy ones from Aliexpress, they're often non-functional [fakes](https://forum.arduino.cc/t/what-are-the-symptoms-of-fake-msgeq7/896820)
 - Some sort of fully addressable RGB strips (NeoPixels or otherwise)
   - In a way the outfit is still waterproof/washable
+- Use a small rechargable battery bank from an established brand designed for phones
+  - Even the smallest runs the outfit for 4-5 hours
+  - (Don't even consider using LIPO batteries for wearables)
+  - Something [like this](https://amazon.co.uk//dp/B01CU1EC6Y) (I used one even smaller)
 
 If you find anything here useful I'd really appreciate letting me know as it helps motivate me to publish more of my projects!
 
