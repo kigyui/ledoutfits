@@ -33,6 +33,12 @@ The summary of what works:
 
 If you find anything here useful I'd really appreciate letting me know as it helps motivate me to publish more of my projects!
 
+## LuxPulseBeat - 2025 Library
+
+For 2025 I separated out the hardware and beat detection code into
+[it's own library](src/) so it's easier to test and incorporate into your
+projects.
+
 ## ledcorset - 2024 Corset
 
 [For emfcamp in 2024 I made a LED corset for a friend to
