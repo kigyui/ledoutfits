@@ -97,7 +97,7 @@ Adding a few bows and we’re done!
 
 ![](./sixbows-300x169.jpg)
 
-[Source code and patterns will be updated here](../src/ledskirt)
+[Source code and patterns will be updated here](../src/)
 
 Since making the skirt I upgraded it removing the thick connectors and
 wires between strips and replacing them with tiny JST connectors
