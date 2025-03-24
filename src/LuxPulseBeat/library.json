@@ -1,0 +1,25 @@
+{
+    "name": "LuxPulseBeat",
+    "version": "1.0.0",
+    "description": "Detect beats for LED clothing using a MSGEQ7",
+    "keywords": "LED, msgeq7",
+    "authors":
+    {
+        "name":  "Kig Yui",
+        "url":   "https://github.com/kigyui/",
+        "maintainer": true
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/kigyui/ledclothing"
+  },
+  "homepage": "https://kigyui.com",
+  "export": {
+  }
+  "dependencies": {
+  },
+  "frameworks": "*",
+  "platforms": "*",
+  "examples": "examples/*/*.ino"
+}
