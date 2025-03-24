@@ -3,7 +3,7 @@
 The holy grail of LED outfits is to be able to be in a dance club and have the outfit react to the beats. But this is a lot trickier than it seems. You
 need to handle different sound levels, being near super loud speakers, and many issues with software FFTs.
 
-These files document over 6 years of experimentation to get something that works really well.
+These files document over 8 years of experimentation to get something that works really well.
 
 The summary of what works:
 
@@ -18,7 +18,7 @@ The summary of what works:
   - (I've never found software FFT to work as well as hardware)
 - Use a small rechargable battery bank from an established brand designed for phones
   - Even the smallest runs the outfit for 4-5 hours
-  - (Don't even consider using LIPO batteries for wearables)
+  - (I generally don't consider using LIPO batteries for wearables as they could easily get crushed without lots of extra protection)
   - Something [like this](https://amazon.co.uk//dp/B01CU1EC6Y) (I used one even smaller)
 - Finally, some sort of fully addressable RGB strips (NeoPixels or otherwise)
   - In a way the outfit is still waterproof/washable
@@ -39,7 +39,7 @@ having swapped out the electret mic for a 130db rated one.
 
 ## ledbag - 2020 Bag
 
-For various events over the last 4 years I've had a light-up bag that contains the same code and circuit
+For various events over the last 5 years I've had a light-up bag that contains the same code and circuit
 
 ## ledskirt - 2018 Magical latex skirt topper
 

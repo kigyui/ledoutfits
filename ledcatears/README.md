@@ -57,7 +57,7 @@ the covers later to add furry ones or even latex ones. Finally a
 small clip (not shown) was hot-glued into the mask to take the
 battery.
 
-The code is just updated version of the one used for the skirt (will
-update the github code in the future), with the switch allowing
+The code is just updated version of the one used for the skirt (see
+the code in this repo), with the switch allowing
 cycling between off, a photo mode (which just slowly changes colours
 without flashing), and several beat mode animations.
