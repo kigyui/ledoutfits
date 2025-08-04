@@ -52,7 +52,7 @@ void LuxPulseBeat::readmsgeq7()  {
     if (!enoughsamples) 
       return; // first run, wait until we've got a full buffer
 
-    int slidingaverage = 0;
+    slidingaverage = 0;
     for (int i = 0; i < sliding; i++) {
       slidingaverage += average[i];
     }
@@ -63,8 +63,9 @@ void LuxPulseBeat::readmsgeq7()  {
     }
     float variance = total / (float)sliding;
     float stddev = sqrt(variance);
-    int window = 2 * int(stddev);
+    window = 2 * int(stddev);
     winmin = max(50, slidingaverage - window);
+    //    winmax = slidingaverage + window;
     winmax = min(1000, slidingaverage + window);
   }
 
@@ -139,6 +140,7 @@ void LuxPulseBeat::loop()
     readmsgeq7();
     slidingwindow();
     // just makes the display look a bit better when we do a FFT display
+    //eqlevel[0] = min(4095,eqlevel[0] * 1.2); // corset
     eqlevel[3] = min(4095,eqlevel[3] * 3);
     eqlevel[4] = min(4095,eqlevel[4] * 4);
 }

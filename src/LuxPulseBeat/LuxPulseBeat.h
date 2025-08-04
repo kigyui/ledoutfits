@@ -13,6 +13,8 @@ public:
     int isbeat(); // returns not 0 if there's a beat detected
     int getBPM(int ms); // get the bpm if it's stable or 0 if not
     bool outputbpm = false; // serial.println the bpm when it's calculated as steady debug
+    int window;
+    int slidingaverage;
 
 private:
     void readmsgeq7();
@@ -32,7 +34,7 @@ private:
     int winmax = 0;
     int winmin = 0;
     int naverage = 0;
-    #define maxbpm 170 // to help calculation set a max bpm that's likely
+    #define maxbpm 180 // to help calculation set a max bpm that's likely
     int minms = 60000/maxbpm;
 
     int bpm; // calculated bpm output
